@@ -1,16 +1,68 @@
-H: IRAN CLAIMS STRIKES IN BAHRAIN
-S: IRGC claims US radars hit; Bahrain: site ablaze, no one hurt.
-H: RUSSIAN SHIP ABLAZE
-S: Drones hit Sparta II; 16 crew saved.
-H: CLIMATE TALKS DEADLOCKED
-S: Past deadline; fossil-fuel text dropped.
-H: BITCOIN CRASHES, REBOUNDS
-S: $55,300 low; back above $60,000.
-H: MOSQUITOES BEAT DENGUE
-S: Wolbachia cuts dengue 69% in Brazil trial.
-H: BOY, 7, KILLED IN KRYVYI RIH
-S: Friday: 2 dead, dozens hurt.
-H: MEXICO CAPTURES EL CHAPO ISIDRO
-S: Friday raid: 11 dead.
-H: QUAKE SHAKES PERU ANDES
-S: Magnitude 6.7; Friday in Junín.
+image.png: 1024x1024 PNG, 194757 bytes
+headline 52px, sub 38-40px, words 92
+sha256 run1 85ec5b8329ccaca5bfce33f26ebec1001feafc7c683dcd467f7190b676b008b9
+sha256 run2 85ec5b8329ccaca5bfce33f26ebec1001feafc7c683dcd467f7190b676b008b9
+deterministic: yes
+
+=== tesseract --psm 6 @ 256px : 58.7% word coverage ===
+___ SATURDAY 21 NOVEMBER 2026
+TRAN CLAIMS x: BOY, 7, KILLED
+STRIKES IN BAHRAIN |” IN KRYVYIRIH
+
+adarclaim;no onehurt _lriday:2 dead, dozens hurt
+
+a: RUSSIAN loo) MEXICO CAPTURES
+SHIP ABLAZE ELCHAPO ISIDRO
+sparta Tit; crew saved [rday ald: 11 dead
+
+lei CLIMATETALKS | NASDAQERASES
+DEADLOCKED 2026 GAINS
+
+rast deadline; fositextcutlsap-2.75; Nasdaq.5.3%
+TRUMP, XI, MOSQUITOES
+PUTIN AT APEC BEAT DENGUE
+
+ov 19 summit my rena Wolbachia cts dengue 69%
+
+i= QUAKESHAKES —_| yp BITCOIN CRASHES,
+PERU ANDES REBOUNDS
+Iagnitude 6.7; Friday, unin 1S55.3K low: back above $6OK
+missing: $55.3K $60K 16 2 3.7% 5.3% CHAPO CLAIM CLIMATE CUT CUTS EL ERASES FOSSIL FRIDAY FRIEND HIT II IRAN JUNIN KRYVYI MAGNITUDE NASDAQ NO NOV ONE PAST QUAKE RADAR RAID RIH SHAKES SP TALKS TEXT
+
+=== tesseract --psm 6 @ 384px : 94.6% word coverage ===
+SATURDAY 21 NOVEMBER 2026
+sx IRAN CLAIMS & BOY, 7, KILLED
+‘STRIKES IN BAHRAIN IN KRYVYI RIH
+Radar claim; noone hurt —_|Friday: 2 dead, dozens hurt
+|ur RUSSIAN \do MEXICO CAPTURES
+SHIP ABLAZE EL CHAPO ISIDRO
+Sparta It hit; 16 crew saved _|Friday raid: 11 dead
+23 CLIMATE TALKS ) NASDAQ ERASES
+DEADLOCKED 2026 GAINS
+Past deadline; fossil text cut Is&P -3.7%; Nasdaq -5.3%
+lida TRUMP, XI, a MOSQUITOES
+PUTIN AT APEC BEAT DENGUE
+INov 19 summit; ‘my friend’ [Wolbachia cuts dengue 69%
+y=] QUAKE SHAKES | BITCOIN CRASHES,
+PERU ANDES REBOUNDS
+Magnitude 6.7; Friday, Junin |$55.3K low; back above $60K
+missing: II NO NOV ONE SP
+
+=== tesseract --psm 6 @ 512px : 97.8% word coverage ===
+SATURDAY 21 NOVEMBER 2026
+IS IRAN CLAIMS % BOY, 7, KILLED
+STRIKES IN BAHRAIN IN KRYVYI RIH
+Radar claim; no one hurt Friday: 2 dead, dozens hurt
+jw RUSSIAN 6 MEXICO CAPTURES
+SHIP ABLAZE EL CHAPO ISIDRO
+Sparta II hit; 16 crewsaved [Friday raid: 11 dead
+93 CLIMATE TALKS [4 NASDAQ ERASES
+DEADLOCKED 2026 GAINS
+Past deadline; fossil text cut [S&P -3.7%; Nasdaq -5.3%
+jai TRUMP, XI, ae MOSQUITOES
+PUTIN AT APEC BEAT DENGUE
+Nov 19 summit; ‘my friend’ |Wolbachia cuts dengue 69%
+=| QUAKE SHAKES (® BITCOIN CRASHES,
+PERU ANDES REBOUNDS
+Magnitude 6.7; Friday, Junin |$55.3K low; back above $60K
+missing: CREW SAVED
