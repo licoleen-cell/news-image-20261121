@@ -1,36 +1,30 @@
 #!/usr/bin/env python3
-"""Entry for the news-image-20261121 bounty.
+"""Copy the rendered front page to /output/entry.png.
 
-Writes the finished front page (image.png, 1024x1024) to /output/entry.png.
-
-Standard library only, no network, no randomness, no clock reads: the same
-bytes are written on every run.
+Standard library only. The output is a byte-for-byte copy of image.png,
+so repeated runs are identical.
 """
 
+import os
 import shutil
 import sys
-from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-SOURCE = HERE / "image.png"
-OUTPUT_DIR = Path("/output")
-OUTPUT = OUTPUT_DIR / "entry.png"
+HERE = os.path.dirname(os.path.abspath(__file__))
+SOURCE = os.path.join(HERE, "image.png")
+OUTPUT_DIR = "/output"
+TARGET = os.path.join(OUTPUT_DIR, "entry.png")
 
 
-def main() -> int:
-    if not SOURCE.is_file():
-        print(f"missing {SOURCE}", file=sys.stderr)
+def main():
+    if not os.path.isfile(SOURCE):
+        sys.stderr.write("missing %s; run gen_image.py first\n" % SOURCE)
         return 1
-
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    # copyfile, not copy2: timestamps must not leak into the result
-    shutil.copyfile(SOURCE, OUTPUT)
-
-    size = OUTPUT.stat().st_size
-    print(f"wrote {OUTPUT} ({size} bytes)")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    shutil.copyfile(SOURCE, TARGET)
+    sys.stdout.write("wrote %s (%d bytes)\n"
+                     % (TARGET, os.path.getsize(TARGET)))
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())
